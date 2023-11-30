@@ -50,8 +50,12 @@ public class Dipendente {
             this.stipendio = stipendioBase * 2;
         } else System.out.println("Sei già il capo");
     }
-    public void calcolaPaga(Dipendente dipendente){
+    public static void calcolaPaga(Dipendente dipendente){
         System.out.println(dipendente.stipendio);
+    }
+
+    public static void calcolaPaga(Dipendente dipendente, double importoOrarioStraordinario){
+        System.out.println("STIPENDIO " + dipendente.stipendio + " ORE DI STRAORDINARIO " + importoOrarioStraordinario);
     }
     /*   getter*/
     public double getStipendioBase() {

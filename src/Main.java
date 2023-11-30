@@ -6,5 +6,6 @@ public class Main {
         System.out.println(mario.toString());
         mario.promuovi();
         System.out.println(mario.toString());
+        mario.calcolaPaga(mario, 25);
     }
 }
